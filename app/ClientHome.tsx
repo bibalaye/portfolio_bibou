@@ -134,7 +134,7 @@ export default function HomeClient() {
   ), []);
 
   const experienceSection = useMemo(() => (
-    <section id="experience" className="mb-8 sm:mb-12 md:mb-16 lg:mb-20 bg-gradient-to-br from-fuchsia-500 to-cyan-500 p-4 sm:p-6 md:p-8 lg:p-16 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 ease-in-out">
+    <section id="expérience" className="mb-8 sm:mb-12 md:mb-16 lg:mb-20 bg-gradient-to-br from-fuchsia-500 to-cyan-500 p-4 sm:p-6 md:p-8 lg:p-16 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 ease-in-out">
       <motion.h2
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}

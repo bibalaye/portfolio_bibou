@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Info } from "./User";
 import { Playfair_Display } from 'next/font/google';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -45,6 +46,7 @@ export default function RootLayout({
           ))}
         </ul>
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
