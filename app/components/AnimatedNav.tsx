@@ -2,7 +2,6 @@
 
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect, useCallback } from 'react';
-import { Info } from '../User';
 
 export default function AnimatedNav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

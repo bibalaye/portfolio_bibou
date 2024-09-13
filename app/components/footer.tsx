@@ -62,7 +62,7 @@ export default function Footer() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <p className="text-xl mb-4 font-light">Développeur et gestionnaire passionné par l'innovation technologique et l'optimisation des processus</p>
+          <p className="text-xl mb-4 font-light">Développeur et gestionnaire passionné par l&apos;innovation technologique et l&apos;optimisation des processus</p>
           <p className="text-sm opacity-75">© {new Date().getFullYear()} {Info.name}. Tous droits réservés.</p>
           <p className="text-sm mt-2">Contact : <a href="mailto:sybibalaye@gmail.com" className="hover:text-yellow-300 transition-colors duration-300">sybibalaye@gmail.com</a></p>
         </motion.div>
