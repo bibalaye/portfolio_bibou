@@ -1,7 +1,7 @@
 const Info = {
     name: "Abiboulaye Sy",
     stack: ["Étudiant en Master MIAGE", "Développeur Full Stack", "Gestionnaire", "Passionné d'Informatique"],
-    bio: "Je suis un étudiant en Master MIAGE à l'UGB, passionné par l'informatique et doté de compétences solides en gestion. Je me spécialise dans la création de solutions efficaces et évolutives, et je suis capable de mener à bien des projets tant du côté développement que gestion. Connectons-nous pour créer quelque chose d'exceptionnel ensemble !"
+    bio: "Bienvenue dans mon univers numérique ! 🚀 Je suis ABIBOULAYE SY, étudiant passionné en Master MIAGE à l'UGB, alliant expertise technique et compétences en gestion. Spécialisé dans la création de solutions innovantes et évolutives, je relève avec enthousiasme les défis du développement et de la gestion de projets. Toujours en quête de nouvelles opportunités, je suis prêt à mettre mes compétences au service de projets ambitieux. Explorez mon portfolio pour découvrir mes réalisations et n'hésitez pas à me contacter pour des opportunités d'emploi ou de stage. Ensemble, créons l'exceptionnel et façonnons l'avenir numérique ! 💼🚀"
 }
 
 const ProjectInfo = [
@@ -19,7 +19,7 @@ const ProjectInfo = [
         title: "E-commerce Django",
         desc: "Un projet e-commerce complet développé avec Django, offrant une expérience d'achat en ligne complète. Les fonctionnalités incluent la sélection de produits, la gestion des paniers, le traitement des commandes et un système d'administration robuste. Le projet met en valeur mes compétences en développement backend avec Django et en création d'interfaces utilisateur dynamiques.",
         image: "django.png",
-        images: ["django.png", "django2.png", "django3.png"],
+        images: ["django.png","django1.png", "django2.png", "django3.png","django4.png", "django5.png", "django6.png","django7.png", "django8.png"],
         live: false,
         technologies: ["Django", "Python", "HTML", "CSS", "JavaScript"],
         link: "lien vers le projet (si disponible)",
@@ -69,7 +69,7 @@ const ProjectInfo = [
         title: "Site de Vente de Pixels",
         desc: "Un projet inspiré par le concept du 'One Million Homepage', où les utilisateurs peuvent acheter et personnaliser des pixels sur une page d'accueil. Les acheteurs peuvent choisir des couleurs ou télécharger des images pour leurs pixels achetés. Ce projet ludique démontre mes compétences en développement web interactif et en gestion de base de données, offrant une expérience utilisateur unique et créative.",
         image: "pixel.png",
-        images: ["pixel.png", "pixel2.png", "pixel3.png"],
+        images: ["pixel.png","pixel1.png",  "pixel2.png", "pixel3.png", "pixel4.png", "pixel5.png"],
         live: false,
         technologies: ["React", "Node.js", "MYsql", "Canvas API"],
         link: "lien vers le projet (si disponible)",
@@ -78,8 +78,8 @@ const ProjectInfo = [
     {
         title: "Messagerie PHP",
         desc: "Un clone de WhatsApp développé en PHP permettant aux utilisateurs de s'inscrire, se connecter, ajouter des amis et échanger des messages en temps réel. Ce projet démontre mes compétences en développement backend avec PHP, en gestion de base de données MySQL, et en création d'interfaces utilisateur dynamiques et réactives.",
-        image: "messagerie.png",
-        images: ["messagerie.png", "messagerie2.png", "messagerie3.png"],
+        image: "message.png",
+        images: ["message.png", "message1.png", "message2.png", "message3.png", "message4.png", "message5.png"],
         live: false,
         technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
         link: "lien vers le projet (si disponible)",
@@ -88,8 +88,8 @@ const ProjectInfo = [
     {
         title: "API TikTok",
         desc: "Un petit projet en PHP permettant de récupérer les informations d'un utilisateur TikTok via l'API officielle. L'utilisateur peut entrer un nom d'utilisateur TikTok sur la page, et l'application affiche les informations du profil correspondant. Ce projet m'a permis de tester mes compétences en intégration d'API et en développement PHP.",
-        image: "tiktok_api.png",
-        images: ["tiktok_api.png", "tiktok_api2.png", "tiktok_api3.png"],
+        image: "tiktok.png",
+        images: ["tiktok.png", "tiktok1.png","tiktok2.png", "tiktok3.png"],
         live: false,
         technologies: ["PHP", "API TikTok", "HTML", "CSS"],
         link: "lien vers le projet (si disponible)",

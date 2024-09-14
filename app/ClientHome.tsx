@@ -16,7 +16,7 @@ export default function HomeClient() {
 
   // Utilisez useEffect pour le chargement initial
   useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 40000);
+    const timer = setTimeout(() => setIsLoading(false), 10000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -215,10 +215,7 @@ export default function HomeClient() {
             <Typewriter
               options={{
                 strings: [
-                  "Bienvenue dans mon univers numérique ! 🚀\n\
-Passionné de tech et de gestion, je suis ABIBOULAYE SY, étudiant en MIAGE à l'UGB.\n\
-Toujours en quête de défis, je crée des solutions innovantes.\n\
-Explorez mes projets et contactez-moi pour des opportunités d'emploi ou de stage ! Je suis prêt à relever de nouveaux défis ! 💼🚀"
+                  "Bonjour, je suis Abiboulaye Sy. Je vous remercie par avance de visiter mon portfolio."
 
                 ],
                 autoStart: true,
