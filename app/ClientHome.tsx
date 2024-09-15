@@ -101,7 +101,7 @@ export default function HomeClient() {
             className="bg-white bg-opacity-20 backdrop-blur-lg p-4 sm:p-6 md:p-8 lg:p-10 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300"
           >
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 md:mb-8 text-center text-white">{skillCategory.title}</h3>
-            <ul className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-1 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
+            <motion.ul className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-1 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
               {skillCategory.skills.map((skill, skillIndex) => (
                 <motion.li
                   key={skillIndex}
@@ -116,7 +116,7 @@ export default function HomeClient() {
                     className="mb-2"
                   >
                     <Image
-                      src={`/icons/${skill}.png`}
+                      src={`/Icons/${skill}.png`}
                       alt={`Icône ${skill}`}
                       width={40}
                       height={40}
@@ -126,7 +126,7 @@ export default function HomeClient() {
                   <span className="text-base sm:text-lg md:text-xl lg:text-2xl text-white group-hover:text-cyan-200 transition-colors duration-300 text-center">{skill}</span>
                 </motion.li>
               ))}
-            </ul>
+            </motion.ul>
           </motion.div>
         ))}
       </motion.div>

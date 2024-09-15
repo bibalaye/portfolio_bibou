@@ -13,7 +13,7 @@ const ProjectInfo = [
         live: false,
         technologies: ["Laravel", "Bootstrap", "jQuery"],
         link: "lien vers le projet (si disponible)",
-        github: "lien vers le repo GitHub (si disponible)"
+        github: "https://github.com/bibalaye/"
     },
     {
         title: "E-commerce Django",
@@ -33,7 +33,7 @@ const ProjectInfo = [
         live: false,
         technologies: ["HTML", "CSS", "JavaScript"],
         link: "lien vers le projet (si disponible)",
-        github: "lien vers le repo GitHub (si disponible)"
+        github: "https://github.com/bibalaye/facebook_odl_connexion_page_clone"
     },
     {
         title: "Réseau de Neurones pour la Prédiction de Solvabilité",
@@ -43,7 +43,7 @@ const ProjectInfo = [
         live: false,
         technologies: ["Python", "TensorFlow", "Scikit-learn"],
         link: "lien vers le projet (si disponible)",
-        github: "lien vers le repo GitHub (si disponible)"
+        github: "https://github.com/bibalaye/"
     },
     {
         title: "Portail de l'UGB",
@@ -53,7 +53,7 @@ const ProjectInfo = [
         live: false,
         technologies: ["Bootstrap", "HTML", "CSS"],
         link: "lien vers le projet (si disponible)",
-        github: "lien vers le repo GitHub (si disponible)"
+        github: "https://github.com/bibalaye/portail_ugb_clone"
     },
     {
         title: "Gestion de Transport de Drones",
@@ -63,7 +63,7 @@ const ProjectInfo = [
         live: false,
         technologies: ["APEX-Oracle"],
         link: "lien vers le projet (si disponible)",
-        github: "lien vers le repo GitHub (si disponible)"
+        github: "https://github.com/bibalaye/"
     },
     {
         title: "Site de Vente de Pixels",
@@ -73,7 +73,7 @@ const ProjectInfo = [
         live: false,
         technologies: ["React", "Node.js", "MYsql", "Canvas API"],
         link: "lien vers le projet (si disponible)",
-        github: "lien vers le repo GitHub (si disponible)"
+        github: "https://github.com/bibalaye/vente_pixel/tree/master"
     },
     {
         title: "Messagerie PHP",
@@ -83,7 +83,7 @@ const ProjectInfo = [
         live: false,
         technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
         link: "lien vers le projet (si disponible)",
-        github: "https://github.com/mor564/messagerie_php"
+        github: "https://github.com/bibalaye/messagerie_php"
     },
     {
         title: "API TikTok",
@@ -93,7 +93,7 @@ const ProjectInfo = [
         live: false,
         technologies: ["PHP", "API TikTok", "HTML", "CSS"],
         link: "lien vers le projet (si disponible)",
-        github: "lien vers le repo GitHub (si disponible)"
+        github: "https://github.com/bibalaye/tiktok_api_test/tree/master"
     },
     {
         title: "Gestion des Chambres CROUS",
@@ -103,42 +103,42 @@ const ProjectInfo = [
         live: false,
         technologies: ["Laravel", "MySQL", "Tailwind CSS", "PHP"],
         link: "lien vers le projet (si disponible)",
-        github: "lien vers le repo GitHub (si disponible)"
+        github: "https://github.com/bibalaye/Crous_gestion_chambre/tree/master"
     }
 ]
 
 const SkillInfo = [
     {
         title: "Frontend",
-        skills: ["React js", "Next.js", "Vue js", "Angular", "TypeScript", "JavaScript", "HTML5", "CSS3", "Sass", "Tailwind CSS", "Bootstrap", "Material-UI", "Redux", "GraphQL"]
+        skills: ["React js", "Next.js", "Angular", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "Bootstrap"]
     },
     {
         title: "Backend",
-        skills: ["Node js", "Express js", "Laravel", "Django", "Ruby on Rails", "ASP.NET Core", "Spring Boot", "FastAPI", "GraphQL", "RESTful APIs", "WebSockets"]
+        skills: ["Node JS", "Express JS", "Laravel", "Django","Springboot", "FastAPI", "RESTful APIs"]
     },
     {
         title: "Bases de données",
-        skills: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "Cassandra", "Oracle", "SQL Server", "Firebase", "DynamoDB"]
+        skills: ["MySQL", "PostgreSQL", "MongoDB", "Oracle", "SQL Server", "Firebase"]
     },
     {
         title: "DevOps & Cloud",
-        skills: ["Docker", "Kubernetes", "Jenkins", "GitLab CI/CD", "AWS", "Azure", "Google Cloud Platform", "Heroku", "Netlify", "Vercel"]
+        skills: ["Docker","AWS", "Azure", "Google Cloud Platform", "Netlify", "Vercel"]
     },
     {
         title: "Langages de programmation",
-        skills: ["JavaScript", "TypeScript", "Python", "Java", "C#", "PHP", "Ruby", "Go", "Rust", "Swift", "Kotlin", "C++", "C", "Pascal"]
+        skills: ["JavaScript", "TypeScript", "Python", "Java", "PHP","C++", "C", "Pascal"]
     },
     {
         title: "Outils & Environnements",
-        skills: ["Git", "GitHub", "GitLab", "Bitbucket", "VS Code", "IntelliJ IDEA", "PyCharm", "WebStorm", "Eclipse", "Android Studio", "Xcode", "Postman", "Insomnia", "MongoDB Compass", "DBeaver", "Docker Desktop", "Laragon", "XAMPP"]
+        skills: ["Git", "GitHub", "VS Code", "IntelliJ IDEA", "PyCharm", "Eclipse", "Android Studio", "Postman", "MongoDB Compass", "Docker Desktop", "Laragon", "XAMPP"]
     },
     {
         title: "Tests & Qualité",
-        skills: ["Jest", "Mocha", "Chai", "Cypress", "Selenium", "JUnit", "PHPUnit", "ESLint", "Prettier", "SonarQube"]
+        skills: ["Jest", "Cypress", "JUnit", "ESLint", "Prettier"]
     },
     {
         title: "Méthodologies & Gestion de projet",
-        skills: ["Agile", "Scrum", "Kanban", "Jira", "Trello", "Confluence", "Notion"]
+        skills: ["Agile", "Scrum", "Kanban", "Trello", "Notion"]
     }
 ]
 
