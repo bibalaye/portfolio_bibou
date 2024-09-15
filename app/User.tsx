@@ -110,11 +110,11 @@ const ProjectInfo = [
 const SkillInfo = [
     {
         title: "Frontend",
-        skills: ["React js", "Next.js", "Angular", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "Bootstrap"]
+        skills: ["React JS", "Next.js", "Angular", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "Bootstrap"]
     },
     {
         title: "Backend",
-        skills: ["Node JS", "Express JS", "Laravel", "Django","Springboot", "FastAPI", "RESTful APIs"]
+        skills: ["Node JS", "Express JS", "laravel", "Django","Springboot", "FastAPI", "RESTful APIs"]
     },
     {
         title: "Bases de données",
@@ -126,11 +126,11 @@ const SkillInfo = [
     },
     {
         title: "Langages de programmation",
-        skills: ["JavaScript", "TypeScript", "Python", "Java", "PHP","C++", "C", "Pascal"]
+        skills: ["JavaScript", "TypeScript", "python", "Java", "PHP","C++", "C", "Pascal"]
     },
     {
         title: "Outils & Environnements",
-        skills: ["Git", "GitHub", "VS Code", "IntelliJ IDEA", "PyCharm", "Eclipse", "Android Studio", "Postman", "MongoDB Compass", "Docker Desktop", "Laragon", "XAMPP"]
+        skills: ["Git", "Github", "VS Code", "IntelliJ IDEA", "PyCharm", "Eclipse", "Android Studio", "Postman", "MongoDB Compass", "Docker Desktop", "Laragon", "XAMPP"]
     },
     {
         title: "Tests & Qualité",
