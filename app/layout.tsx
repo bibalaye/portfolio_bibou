@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Info } from "./User";
-import { Playfair_Display } from 'next/font/google';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const geistSans = localFont({
@@ -15,11 +14,6 @@ const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
-});
-
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  variable: '--font-playfair',
 });
 
 export const metadata: Metadata = {
@@ -38,13 +32,8 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased bg-gradient-to-br from-purple-100 via-pink-100 to-indigo-100 text-gray-900 dark:from-gray-900 dark:via-purple-900 dark:to-indigo-900 dark:text-gray-100 transition-colors duration-500`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased transition-colors duration-500`}
       >
-        <ul className="circles">
-          {[...Array(10)].map((_, index) => (
-            <li key={index}></li>
-          ))}
-        </ul>
         {children}
         <SpeedInsights />
       </body>
